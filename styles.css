@@ -162,7 +162,7 @@ header .banner {
 
 .rect-numbers>h3 {
     font-weight: bold;
-    font-size: 6.5vmin;
+    font-size: 4.5vmin;
     padding-top: 24px;
     color: rgb(12, 42, 88);
 }
@@ -258,8 +258,61 @@ header .banner {
     background: transparent;
     display: inline-block;
     width: 250px;
-    border-radius: 32px;
+    border-radius: 64px;
     padding: 16px 32px;
     color: whitesmoke;
     margin: 16px;
+}
+
+/* -------------------------Testimonials-------------------------- */
+.testimonials {
+    margin-top: 64px;
+}
+
+.testimonials img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.testimonials .btn {
+    border: none;
+    background-image: linear-gradient(to top, rgb(202, 100, 40), rgb(196, 37, 85));
+
+}
+
+/* -------------------------Footer-------------------------- */
+
+footer {
+    padding-top: 32px;
+    background: rgba(0, 0, 2, 0.85);
+    color: whitesmoke;
+}
+
+footer .col-md-5,
+footer .col-md-2 {
+    padding: 24px 32px;
+}
+
+footer h3 {
+    font-weight: bold;
+}
+
+footer p {
+    color: rgb(129, 129, 129);
+    font-size: 12px;
+}
+
+.fa-arrow-right {
+    color: whitesmoke !important;
+}
+
+.input-group .btn-3 {
+    background-image: linear-gradient(to top, rgb(202, 100, 40), rgb(196, 37, 85));
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 16px;
+    border: none;
+    outline: none;
 }
